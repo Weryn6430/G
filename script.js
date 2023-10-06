@@ -1,6 +1,6 @@
 const sigInBtn = document.querySelector('.sigin-btn');
 const sigInupBtn = document.querySelector('.siginup-btn');
-const formBox = document.querySelector('.block-form');
+const formBox = document.querySelector('.form_block');
 const body = document.body;
 sigInupBtn.addEventListener('click',function() {
 formBox.classList.add('active');
