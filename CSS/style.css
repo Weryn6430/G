@@ -10,6 +10,7 @@ body {
   align-items: center;
   background-color: rgb(64, 141, 241);
   transition: 0.5s;
+  padding: none;
 }
 
 .container {
@@ -145,4 +146,19 @@ color: #333;
   left: 0;
 
 }
+}
+.novbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 30px 40px;
+  text-decoration: none;
+}
+.novbar a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16x;
+  background-color: chocolate;
+  padding: 10px 10px;
+  color: #fff;
 }
