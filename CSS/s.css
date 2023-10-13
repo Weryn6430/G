@@ -1,0 +1,55 @@
+/* Общие стили для всей страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#news-feed {
+    width: 70%;
+}
+
+aside {
+    width: 25%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#profile-info img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+/* Дополнительные стили и структура макета могут быть добавлены здесь */

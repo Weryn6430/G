@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     padding: 0;
     margin: 0;
@@ -24,3 +25,47 @@ body {
     float: right;
     white-space: 1px;
 }
+=======
+/* Общие стили для всего сайта */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1877f2; /* Цвет фона Facebook */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section#main-content {
+    padding: 20px;
+}
+
+
+/* Дополнительные стили и структура макета могут быть добавлены здесь */
+>>>>>>> bd987760c6cf71ae5be7703ea13afd229850690e
