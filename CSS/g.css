@@ -1,31 +1,3 @@
-<<<<<<< HEAD
-* {
-    padding: 0;
-    margin: 0;
-}
-body {
-    background-color: rgba(22, 20, 20, 0.788);
-}
-.heder {
-    width: 100%;
-    border: 1px solid black;
-    height: 50px;
-    background-color: rgba(188, 188, 216, 0.877);
-    line-height: 50px;
-    
-}
-.logo {
-    float: left;
-    width: 700;
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-.menu b {
-    float: right;
-    white-space: 1px;
-}
-=======
 /* Общие стили для всего сайта */
 body {
     font-family: Arial, sans-serif;
@@ -68,4 +40,3 @@ section#main-content {
 
 
 /* Дополнительные стили и структура макета могут быть добавлены здесь */
->>>>>>> bd987760c6cf71ae5be7703ea13afd229850690e

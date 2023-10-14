@@ -162,3 +162,9 @@ color: #333;
   padding: 10px 10px;
   color: #fff;
 }
+.novbar a:hover {
+  background-color: aqua;
+  color: #fff;
+  
+
+}
