@@ -12,7 +12,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 // import VueRouter from 'vue-router'
 // Vue.use(VueRouter);
 
-const app = createApp({});
+createApp(App).mount('#app')
 
-app.component('app', App);
-app.mount("#app");
+// const app = createApp({});
+// app.component('#app', App);
+// app.mount("#app");
+

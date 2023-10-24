@@ -4,6 +4,7 @@ export default {
     "./pages/**/*.html",
     "./src/**/*.js",
     "./src/**/*.vue",
+    "./*.html",
   ],
   theme: {
     extend: {},

@@ -1,8 +1,7 @@
 <template>
-    <div class="container mx-auto">
+    <div class="container">
         <!-- HEADER -->
-        <h1>Тест Vue</h1>
-
+        <h1>{{ title }}</h1>
     </div>
 </template>
 
@@ -11,10 +10,9 @@
 
 export default {
     components: {
-        Header, MainPhotoBlock, Menu, PhotoGallery, Slider, FileLoader,
     },
     data: () => ({
-        
+        title: 'Тест Vue'
     }),
 }
 </script>

@@ -1,6 +1,4 @@
 {
-    "githubPullRequests.ignoredPullRequestBranches": [
-        "main"
-    ],
+    "githubPullRequests.ignoredPullRequestBranches": ["main"],
     "recommendations": ["Vue.volar", "Vue.vscode-typescript-vue-plugin"]
 }
