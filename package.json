@@ -1,0 +1,18 @@
+{
+  "name": "g",
+  "version": "1.0.0",
+  "description": "проект сайта",
+  "main": "src/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.2.36",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.3.6"
+  }
+}
