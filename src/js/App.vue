@@ -1,18 +1,19 @@
 <template>
     <div class="container">
         <!-- HEADER -->
-        <h1>{{ title }}</h1>
+        <ChatWindow />
     </div>
 </template>
 
 <script>
-
+import ChatWindow from './components/chat/ChatWindow.vue';
 
 export default {
     components: {
+        ChatWindow,
     },
     data: () => ({
-        title: 'Тест Vue'
+        
     }),
 }
 </script>
