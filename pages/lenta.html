@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
   <style>
+    .like-container{
+      display: flex;
+      align-items: center;
+    }
+    .like-button{
+
+      font-size: 24px;
+      border: none;
+      background: none;
+      cursor: pointer;
+      padding: 0;
+      margin-right: 8px;
+    }
+    .like-count{
+      font-size: 18px;
+    }
+
+    @media (max-width:768px){
+      .news-item{
+        flex-basis: calc(100%-20px);
+      }
+    }
    .news-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
    }
    .news-item{
+    margin-top: 10px;
+    margin-left: 500px;
     margin-bottom: 30px;
     flex-basis: calc(50%-20px);
     padding: 15px;
@@ -30,7 +55,7 @@
    }
    .news-item .news-image{
     width: 100%;
-    height: 200px;
+    height: 500px;
     object-fit: cover;
     margin-bottom: 10px;
     border: 7px;
@@ -49,26 +74,56 @@
     <link rel="stylesheet" href="CSS/g.css">
 </head>
 <body>
+  <header>
+    <div class="logo">
+        <h1>ВГруппе</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="ssite.html">Моя страница</a></li>
+            <li><a href="lenta.html">Лента</a></li>
+            <li><a href="#">Друзья</a></li>
+            <li><a href="regsite.html">Выход</a></li>
+        </ul>
+    </nav>
+</header>
   <div class="news-container">
     <a href="#" class="news-item">
       <h2 class="news-title">
         ахуеть, зима
       </h2>
-      <img src="../src\img\566565.jpeg" alt="" class="news-image">
+      <img src="c73347898d8b82933051e913bc07af8b.jpeg" alt="" class="news-image">
+      <p class="news-summary"> ура зима</p>
+      <span class="news-date"> 21 октября</span>
+      <div class="like-container">
+        <button class="like-button">like</button>
+        <span class="like-count">0</span>
+      </div>
+      <div class="news-nav"> 
+        <button id="next" class="mar btn btn-primary">repost</button>
+      </div>
+
+    </a>
+
+   </div>
+   <div class="news-container">
+    <a href="#" class="news-item">
+      <h2 class="news-title">
+        ахуеть, зима
+      </h2>
+      <img src="c73347898d8b82933051e913bc07af8b.jpeg" alt="" class="news-image">
       <p class="news-summary"> ура зима</p>
       <span class="news-date"> 21 октября</span>
       <div class="news-nav">
         <button id="prev" class="btn btn-primary">Prev</button>
         <button id="next" class="btn btn-primary">Next</button>
       </div>
-      <div>
-        <a href="gsite.html" class="novbar-br">Главная</a>
-     
-      </div>
+      
 
     </a>
 
    </div>
+   
 
 </body>
 </html>
