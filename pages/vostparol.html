@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Добро Пожаловать</title>
-    <link rel="stylesheet" href="CSS/style1.css">
-    <script src="JS/script1.js" defer></script>
+    <title>Восстановление пароля</title>
+    <link rel="stylesheet" href="../src/css/style1.css">
+    <script src="../src/js/script.js" defer></script>
 </head>
 <body>
     <!--КОНТЕЙНЕР-->
     <article class="container">
         <div class="block">
+        <!-- Почему класс block-item прописан 2 раза и почему не выдержаны отступы? -->
           <section class="block_item block-item">
             
            
@@ -23,14 +24,16 @@
         </div>
         <div class="form_block">
             <form action="#" class="form form-sigin">
-                <h3 class="form_title">Введите почту аккаунта</h3>
+                <!-- Какой сброс почты? Не бывает такого. Убери этот блок -->
+                <h3 class="form_title">Спрос почты</h3>
 
                 <p>
                     <input type="email" class="form_input" placeholder="Почта">
                 </p>
                 
                 <p>
-                        <button class="form-btn block-item_btn siginup-btn">Далее</button>
+                    <!-- Почему отступ большой? -->
+                        <button class="form-btn block-item_btn siginup-btn">Сброс почты</button>
                 </p>
                 
             </form>    
@@ -43,7 +46,7 @@
                     <input type="password" class="form_input" placeholder="Пароль">
                 </p>
                 <p>
-                    <input type="password"  class="form_input"placeholder="Повторите пароль">
+                    <input type="password"  class="form_input" placeholder="Повторите пароль">
                 </p>
                 <p>
                     <button class="form-btn form_btn_siginup">Сбросить пароль</button>
@@ -53,8 +56,9 @@
         </div>
     </article>
     <nav class="novbar">
+    <!-- Что с Форматированем опять? -->
         <div>
-            <a href="gsite.html"class="novbar-br">Главная</a>
+            <a href="gsite.html" class="novbar-br">Главная</a>
          
     </div>
     </nav>

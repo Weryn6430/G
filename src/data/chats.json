@@ -1,0 +1,47 @@
+[
+    {
+        "id": 342342,
+        "name": "Martin Randolph",
+        "avatar": "/src/img/chat/users/Oval-1.png",
+        "info": "You: What’s man! ",
+        "time": "01:10",
+        "status": "send",
+        "icon": "/src/img/chat/icons/delivered.png"
+    },
+    {
+        "id": 342342,
+        "name": "Andrew Parker",
+        "avatar": "/src/img/chat/users/Oval-2.png",
+        "info": "You: What’s man! ",
+        "time": "9:40",
+        "status": "send",
+        "icon": "/src/img/chat/icons/delivered.png"
+    },
+    {
+        "id": 342342,
+        "name": "Karen Castillo",
+        "avatar": "/src/img/chat/users/Oval-3.png",
+        "info": "You: What’s man! ",
+        "time": "14:10",
+        "status": "send",
+        "icon": "/src/img/chat/icons/delivered.png"
+    },
+    {
+        "id": 342342,
+        "name": "Maisy Humphrey",
+        "avatar": "/src/img/chat/users/Oval-4.png",
+        "info": "You: What’s man! ",
+        "time": "12:00",
+        "status": "send",
+        "icon": "/src/img/chat/icons/send.png"
+    },
+    {
+        "id": 342342,
+        "name": "Joshua Lawrence",
+        "avatar": "/src/img/chat/users/Oval-5.png",
+        "info": "You: What’s man! ",
+        "time": "11:20",
+        "status": "send",
+        "icon": "/src/img/chat/icons/send.png"
+    }
+]
