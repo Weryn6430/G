@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F8F8FA;
+}
+header {
+    border: 0.5px rgb(103, 106, 109) solid;
+    background-color: rgb(248, 248, 248);
+    width: 100%;
+    height: 89px;
+    align-items: center;
+    padding: 0px 90px;
+    display: flex;
+    word-spacing: 10px;
+    border-radius: 5px;
+    max-height: 89px;
+}
+
+.nav_header {
+    border: solid black;
+    width: 1222.14px;
+    height: 51px;
+    position: relative;
+}
+
+.logo {
+    background-color:#0A66C2;
+    color: #fff;
+    width: 50px;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 5px;
+    display: inline-block;    
+}
+
+.searth_header_nav  {
+    display: inline-block; 
+    margin-left: 32px;
+    
+    
+ 
+}
+
+.searth_header_nav input {
+    width: 488px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #F8F8FA;
+    border: slategray solid 1px;
+}
+
+.searth_header_nav ul {
+    display: inline-block;
+}
+
+.searth_header_nav ul li {
+    display: inline-block;
+    color: #fff;
+    width: 48px;
+    height: 40px;
+    padding-top: 15px;
+    margin-left: 30px;
+    list-style: none;
+    text-align: center;
+    background-color: #0A66C2;
+    font-size: 19px;
+    border-radius: 15px;
+    transition: 1.5 ease-in-out;
+    
+    
+}
+.searth_header_nav ul li:hover {
+    color: brown;
+}
+
+.vert-line {
+    display: inline-block;
+    border-left: 3px solid rgb(71, 71, 235);
+    border-radius: 2px;
+    font-size: 30px;
+    height: 50px;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.header_name_profile {
+    display: inline-block;
+    margin-left: 30px;
+   
+    
+    position: absolute;
+}
+
+.header_name_profile img {
+    border-radius: 50%;
+    font-size: 15px;
+    width: 40px;
+    height: 30px; 
+    font-size: 19px;
+    border: solid;
+    
+}
+.header_name_profile b {
+    font-family: sans-serif;
+}
+.header_name_profile i {
+    color: rgb(255, 255, 255);
+    background-color: #0A66C2;
+    border-radius: 50%;
+    font-size: 20px;
+}
