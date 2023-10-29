@@ -21,18 +21,21 @@
             <input class="search__field" type="text" placeholder="Поиск">
         </form>
 
-        <!-- Persons -->
-        <section class="">
-
+        <!-- ChatContact -->
+        <section class="chats-block">
+            <ChatContact :data="chats"></ChatContact>
         </section>
 
     </section>
 </template>
 
 <script>
+import ChatContact from './ChatContact.vue';
+import axios from 'axios';
 export default {
     name: 'UsersBlock',
     components: {
+        ChatContact,
     },
     data: () => ({
         name: 'Alexey',
@@ -40,8 +43,28 @@ export default {
         icons: {
             takePhoto: '/src/img/chat/icons/take-photo.png',
             newMwssage: '/src/img/chat/icons/new-message.png'
-        }
+        },
+
+        chats: [],
     }),
+    methods: {
+        getData() {
+            axios.get('/src/data/chats.json')
+                .then(res => {
+                    if(res.data.length > 0) {
+                        this.chats = res.data
+                    }
+                })
+                .catch(er => {
+                    console.log(er)
+                })
+                
+        }
+    },
+
+    mounted() {
+        this.getData();
+    },
 }
 </script>
 
@@ -109,5 +132,10 @@ export default {
         }
     }
 
-    // 
+    // chats-line
+    .chats-block {
+        display: flex;
+        flex-direction: column;
+        width: 100;
+    }
 </style>
