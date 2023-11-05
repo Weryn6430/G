@@ -191,7 +191,12 @@ padding: 0px;
 border: 0px;
 background: var(--bg,#fff) ;
 }
+aside div{
+    display: inline;
+}
+
 aside .profile-img{
+    padding: 3px;
     width: 50px;
     height: 50px;
     flex-shrink: 0;
@@ -199,7 +204,8 @@ aside .profile-img{
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     margin-right: 203px;
 }
-.name{
+
+aside div h6{
     width: 115px;
     height: 20px;
     flex-shrink: 0;
@@ -210,7 +216,8 @@ aside .profile-img{
     font-weight: 500;
     line-height: 110%;
 }
-.profile-text{
+
+aside div p{
     width: 163px;
     height: 14px;
     flex-shrink: 0;
@@ -221,7 +228,8 @@ aside .profile-img{
     font-weight: 400;
     line-height: 110%;
 }
-.following{
+
+aside div h2{
     width: 115px;
     height: 21px;
     flex-shrink: 0;
@@ -243,4 +251,8 @@ aside .profile-img{
     font-style: normal;
     font-weight: 500;
     line-height: 110%;
+    text-decoration: none;
+}
+.rec:hover{
+    color: darkmagenta;
 }
